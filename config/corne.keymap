@@ -32,7 +32,7 @@
 &trans  &kp N1      &kp N2        &kp N3      &kp N4      &kp N5        &kp N6      &kp N7            &kp N8         &kp N9            &kp N0             &trans
 &trans  &kp LS(N1)  &kp LS(N2)    &kp LS(N3)  &kp LS(N4)  &kp LS(N5)    &kp RS(N6)  &kp RS(N7)        &kp RS(N8)     &kp RS(N9)        &kp RS(N0)         &trans
 &trans  &kp LSHFT   &kp LEFT_ALT  &kp CAPS    &kp GRAVE   &kp EQUAL     &kp MINUS   &kp SINGLE_QUOTE  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-                                  &trans      &trans      &trans        &kp TAB     &mo 3             &trans
+                                  &trans      &trans      &trans        &kp TAB     &mo 3             &mo 4
             >;
         };
 
@@ -46,6 +46,15 @@
         };
 
         layer_3 {
+            bindings = <
+&trans  &kp LA(NUMBER_1)  &kp LA(N2)      &kp LA(N3)      &kp LA(N4)      &kp LA(N5)        &kp LA(N6)      &kp LA(N7)      &kp LA(N8)      &kp LA(N9)      &kp LA(N0)      &trans
+&trans  &kp LA(LS(N1))    &kp LA(LS(N2))  &kp LA(LS(N3))  &kp LA(LS(N4))  &kp LA(LS(N5))    &kp LA(LS(N6))  &kp LA(LS(N7))  &kp LA(LS(N8))  &kp LA(LS(N9))  &kp LA(LS(N0))  &trans
+&trans  &kp ESC           &kp LA(LS(L))   &kp LA(LS(K))   &kp LA(LS(J))   &kp LA(LS(H))     &kp LA(H)       &kp LA(J)       &kp LA(K)       &kp LA(L)       &kp ESC         &trans
+                                          &trans          &trans          &trans            &trans          &trans          &trans
+            >;
+        };
+
+        layer_4 {
             bindings = <
 &trans  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &trans  &trans  &trans  &trans  &bt BT_CLR_ALL  &trans
 &trans  &trans         &trans         &trans         &trans         &trans           &trans  &trans  &trans  &trans  &trans          &trans
